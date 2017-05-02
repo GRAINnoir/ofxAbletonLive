@@ -236,7 +236,7 @@ void ofxAbletonLive::update()
 void ofxAbletonLive::drawDebugView()
 {
     ofPushStyle();
-    ofSetColor(0);
+    ofSetColor(255);
     
     if (!isLoaded()) {
         ofDrawBitmapString("ofxAbletonLive has not loaded yet!", 100, 100);
